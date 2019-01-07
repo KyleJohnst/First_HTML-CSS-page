@@ -1,0 +1,190 @@
+html, body {
+    min-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, p, ul, li{
+  color: rgb(212, 216, 221);
+}
+
+body {
+  font-family: 'Thasadith', sans-serif;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  background-image: url(file:///Users/kylejohnston/Documents/CodeClan/my_website/Images/Moonlit.jpg);
+}
+
+/**************************** Navbar *****************************/
+
+.navbar {
+  background-color: #0F2027;
+  width: 100%;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  display: block;
+  padding: 10px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.home {
+  font-weight: 600;
+  color: rgb(224, 224, 224);
+  background-color: #283d47;
+  border: 2px solid rgb(209, 209, 209);
+}
+
+
+a.link {
+color: rgb(153, 153, 153);
+}
+
+/******************** Header/Banner image ***************************/
+
+
+.header {
+  border: 1px solid grey;
+  position: static;
+  background-image: url(file:///Users/kylejohnston/Documents/CodeClan/my_website/Images/Field.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  padding-top: 320px;
+  max-width: 95%;
+  max-height: 60%;
+  min-width: 90%;
+  min-height: 55%;
+}
+
+#intro {
+  margin: auto 33% 1% 33%;
+  border: 10px;
+  background-color: rgba(209, 209, 209, 0.30);
+  text-align: center;
+}
+
+/**************************** Content ********************************/
+.main {
+  padding-bottom: 50px;
+  background-color: rgba(100, 101, 102, 0.09)
+}
+
+.overview {
+   margin: 3px;
+   text-align: center;
+   padding: 40px;
+}
+
+.story, .countries, .countries-list {
+  margin: 2px;
+  text-align: center;
+  padding: 1px;
+}
+
+.list-item {
+  margin:1px auto 1px auto;
+  text-align: center;
+  padding: 1px;
+}
+
+
+
+.carousel {
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid rgb(147, 150, 155);
+}
+
+/****************** FOOTER ********************/
+
+footer {
+  border-top: 1px solid rgb(212, 216, 221);
+  padding: 20px 0;
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+/************************ Button *********************/
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #bacff2;
+  text-shadow: none;
+  background-color: #034f70;
+
+}
+
+.btn.btn-primary:hover {
+  color: #bacff2;
+  background-color: #3d63a0;
+}
+
+.btn-secondary {
+  background-color: ;
+  color: ;
+  margin: 0 0 30px;
+}
+
+
+/**************** Form ****************/
+.email {
+  padding:40px 20px 20px 120px;
+}
+
+.mailform {
+  align: center;
+  margin: 0 auto;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.infoHere {
+  display: block;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.message {
+  width: 50%;
+}
+
+.formBtn {
+  border-radius: 10px;
+  margin: 10px;
+}
